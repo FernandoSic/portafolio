@@ -1,108 +1,201 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
-    "description": "Soy Neo, posiblemente el mejor programador de la historia.",
+    "title": "Fernando Sic (FSic) | Portafolio",
+    "description": "Soy Fernando, estudiante de informática y desarrollador apasionado, acrualmente estudiante del técnico en desarrollo de software. Me interesa, el manejo de los datos, la inteligencia artificial y el desarrollo web.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "name": "Fernando José Nicolás Sic Saquic",
+    "skill": "Programador web y de datos",
+    "location": "Totonicapán, Guatemala",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "fernandosic11@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/FernandoSic",
+        "likedin": "https://www.linkedin.com/in/fernando-sic-saquic-006b47185"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "Soy Fernando, estudiante de informática y desarrollador apasionado, acrualmente estudiante del técnico en desarrollo de software. Me interesa, el manejo de los datos, la inteligencia artificial y el desarrollo web.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+            "icon": "devicon-mysql-plain",
+            "name": "MySQL"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+            "icon": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "devicon-mongodb-plain",
+            "name": "MongoDB"
         },
         {
-            "icon": "devicon-c-plain",
-            "name": "C"
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "name": "Java"
         },
         {
             "icon": "devicon-python-plain",
             "name": "Python"
+        },
+        {
+            "icon": "devicon-express-original",
+            "name": "Express"
+        },
+        {
+            "icon": "devicon-react-plain",
+            "name": "React"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-github-plain",
+            "name": "GitHub"
         }
+
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "laptop",
+            "title": "Profesor de programación",
+            "subtitle": "Programadción y offimatica",
+            "description": "Enseñar a programar y uso de aplicaciones de oficina a estudiantes de nivel medio.",
+            "date": "2023 - 2024"
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "chemistry",
+            "title": "Prefesor de ciencias",
+            "subtitle": "Química y Biología",
+            "description": "Enseñar ciencias naturales a estudiantes de nivel medio.",
+            "date": "2019 - Actualidad"
         }
     ],
     "projects": [
         {
-            "icon": "bar-chart-4",
-            "title": "Software random",
-            "subtitle": "Software propiedad de Metacortex",
-            "description": "Herramienta para hacer rico a otras personas.",
+            "icon": "graph-bar",
+            "title": "Gestor de incripción de cursos",
+            "subtitle": "Proyecto universitario",
+            "description": "Sistema de escritorio para la gestión de inscripciones en cursos. Permite administrar estudiantes, cursos, inscripciones, asignaciones y pagos, y ofrece vistas para ver y verificar la información capturada.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-java-plain",
+                    "name": "Java"
                 },
                 {
-                    "icon": "devicon-django-plain",
-                    "name": "Django"
+                    "icon": "devicon-sqlite-plain",
+                    "name": "SQLite"
                 }
             ],
-            "image": "/project_1.jpg",
-            "url": "https://matrix.fandom.com/wiki/MetaCortex",
-            "github": "https://github.com/thomasanderson"
+            "image": "/Gestor de inscripciones.jpg",
+            "github": "https://github.com/FernandoSic/Gestion_de_inscripciones.git"
         },
         {
-            "icon": "bug-off",
-            "title": "Hackeo Matrix",
-            "subtitle": "Mi obra maestra",
-            "description": "Migración del Matrix al mundo real y hackeo del sistema ficticio para salvar a la humanidad.",
+            "icon": "apple-alt",
+            "title": "Kalo fit",
+            "subtitle": "Proyecto de graduación",
+            "description": "Aplicación que permite a los usuarios registrar sus comidas diarias indicando qué alimentos consumen y en qué cantidades. El sistema calcula las calorías consumidas y muestra reportes visuales del historial.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Binario"
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "icon": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "icon": "devicon-react-plain",
+                    "name": "React"
                 }
             ],
-            "image": "/project_2.jpg",
-            "url": "https://matrix.fandom.com/wiki/Wiki",
-            "github": "https://github.com/thomasanderson"
+            "image": "/Kalo_fit.jpg",
+            "github": "https://github.com/FernandoSic/Kalo_fit.git"
+        },
+        {
+            "icon": "inventory",
+            "title": "Gestor de inventario",
+            "subtitle": "Proyecto de curso (Bases de datos)",
+            "description": "El sistema de gestión de inventarios tiene como objetivo permitir el registro y control de productos en un almacén, gestionar transacciones de venta y mantener un registro histórico de las modificaciones realizadas en los productos.",
+            "technologies": [
+                {
+                    "icon": "devicon-mysql-plain",
+                    "name": "MySQL"
+                },
+                {
+                    "icon": "devicon-mongodb-plain",
+                    "name": "MongoDB"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "icon": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                }
+            ],
+            "image": "/GestorInven.png",
+            "github": "https://github.com/FernandoSic/DB_inventario.git"
+        },
+        {
+            "icon": "track",
+            "title": "Habits Tracker",
+            "subtitle": "Proyecto de curso (POO)",
+            "description": "El sistema permite a los usuarios crear, registrar y dar seguimiento a sus hábitos diarios. Ofrece herramientas para monitorear el progreso, mantener la constancia y mejorar la formación de nuevos hábitos de manera sencilla y organizada.",
+            "technologies": [
+                {
+                    "icon": "devicon-mongodb-plain",
+                    "name": "MongoDB"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "icon": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-nextjs-plain",
+                    "name": "Next.js"
+                }
+            ],
+            "image": "/todo.png",
+            "github": "https://github.com/FernandoSic/Habits-Tracker.git"
         }
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "University",
+            "title": "Técnico en desarrollo de software",
+            "subtitle": "Universidad Galileo",
+            "description": "Aprendizaje de técnicas de análisis y diseño de sistemas para la creación de aplicaciones eficientes y escalables.",
+            "date": "2024 - Actualidad"
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "Bachillerato en Computación",
+            "subtitle": "Instituto tecnologico TECZION",
+            "description": "Principios básicos de hardware y software para comprender el funcionamiento general de los sistemas computacionales.",
+            "date": "2017 - 2018"
         }
     ],
     "extras": [
