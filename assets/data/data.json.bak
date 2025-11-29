@@ -74,7 +74,7 @@
     ],
     "projects": [
         {
-            "icon": "bar-chart-2",
+            "icon": "graph-bar",
             "title": "Gestor de incripción de cursos",
             "subtitle": "Proyecto universitario",
             "description": "Sistema de escritorio para la gestión de inscripciones en cursos. Permite administrar estudiantes, cursos, inscripciones, asignaciones y pagos, y ofrece vistas para ver y verificar la información capturada.",
