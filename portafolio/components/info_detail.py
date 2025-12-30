@@ -83,10 +83,12 @@ def info_detail(info: Info) -> rx.Component:
             rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
-                width="100%",
-                max_width=IMAGE_WIDTH,
+                width=["100%", IMAGE_WIDTH],
+                max_width=["100%", IMAGE_WIDTH],
+                min_width=["100%", IMAGE_WIDTH],
                 border_radius=EmSize.DEFAULT.value,
-                object_fit="cover"
+                object_fit="cover",
+                align_self=["stretch", "flex-start"]
             )
         ),
         flex_direction=["column", "row"],
