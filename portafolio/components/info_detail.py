@@ -37,14 +37,16 @@ def info_detail(info: Info) -> rx.Component:
                         info.url != "",
                         icon_button(
                             "link",
-                            info.url
-                        )
+                            info.url,
+                            text="Ir a la aplicación"
+                        ),
                     ),
                     rx.cond(
                         info.github != "",
                         icon_button(
                             "github",
-                            info.github
+                            info.github,
+                            text="Código"
                         )
                     )
                 ),

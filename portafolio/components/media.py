@@ -15,15 +15,18 @@ def media(data: Media) -> rx.Component:
         rx.hstack(
             icon_button(
                 "file-text",
-                data.cv
+                data.cv,
+                text="CV"
             ),
             icon_button(
                 "github",
-                data.github
+                data.github,
+                text="GitHub"
             ),
             icon_button(
                 "linkedin",
-                data.likedin
+                data.likedin,
+                text="LinkedIn"
             ),
             spacing=Size.SMALL.value
         ),
