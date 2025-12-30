@@ -8,5 +8,8 @@ def footer(data: Media) -> rx.Component:
     return rx.vstack(
         rx.text("Fernando José Nicolás Sic Saquic © 2025"),
         media(data),
-        spacing=Size.SMALL.value
+        spacing=Size.SMALL.value,
+        align_items="center",
+        text_align="center",
+        width="100%"
     )

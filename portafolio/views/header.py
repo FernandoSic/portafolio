@@ -6,7 +6,7 @@ from portafolio.styles.styles import Size
 
 
 def header(data: Data) -> rx.Component:
-    return rx.hstack(
+    return rx.flex(
         rx.avatar(
             src=data.avatar,
             size=Size.BIG.value
@@ -21,6 +21,10 @@ def header(data: Data) -> rx.Component:
             ),
             media(data.media),
             spacing=Size.SMALL.value,
+            align_items=["center", "flex-start"]
         ),
         spacing=Size.DEFAULT.value,
+        flex_direction=["column", "row"],
+        align_items="center",
+        width="100%"
     )

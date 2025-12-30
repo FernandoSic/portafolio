@@ -93,7 +93,7 @@
             "icon": "train_track",
             "title": "To Do List",
             "subtitle": "Proyecto personal",
-            "description": "Aplicación web para la gestión de tareas pendientes con autenticación de usuarios y categorización por tipos, ademas de seguridad medante JSON Web Tokens (JWT). Permite crear y eliminar tareas, así como marcar su estado de completitud. La interfaz es responsiva y fácil de usar, adaptada especialmente para dispositivos móviles.El Backend esta desplegado en Render y el Frontend en Vercel.",
+            "description": "Aplicación web para la gestión de tareas pendientes con autenticación de usuarios y categorización por tipos, ademas de seguridad medante JSON Web Tokens (JWT). Permite crear y eliminar tareas, así como marcar su estado de completitud. La interfaz es responsiva y fácil de usar, adaptada especialmente para dispositivos móviles. El Backend esta desplegado en Render y el Frontend en Vercel.",
             "technologies": [
                 {
                     "icon": "devicon-mongodb-plain",

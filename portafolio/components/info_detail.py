@@ -7,11 +7,16 @@ from portafolio.styles.styles import IMAGE_HEIGHT, IMAGE_WIDTH, EmSize, Size
 
 def info_detail(info: Info) -> rx.Component:
     return rx.flex(
+        
         rx.hstack(
             icon_badge(info.icon),
             rx.vstack(
                 rx.text.strong(info.title),
                 rx.text(info.subtitle),
+                rx.cond(
+                    info.date != "",
+                    rx.badge(info.date, color_scheme="gray", variant="soft")
+                ),
                 rx.text(
                     info.description,
                     size=Size.SMALL.value,
@@ -24,12 +29,14 @@ def info_detail(info: Info) -> rx.Component:
                             rx.badge(
                                 rx.box(class_name=technology.icon),
                                 technology.name,
-                                color_scheme="gray"
+                                color_scheme="gray",
+                                size="1"
                             )
                             for technology in info.technologies
                         ],
                         wrap="wrap",
-                        spacing=Size.SMALL.value
+                        spacing=Size.SMALL.value,
+                        row_gap=Size.SMALL.value
                     )
                 ),
                 rx.hstack(
@@ -38,7 +45,8 @@ def info_detail(info: Info) -> rx.Component:
                         icon_button(
                             "link",
                             info.url,
-                            text="Ir a la aplicación"
+                            text="Ir a la aplicación",
+                            width=["100%", "auto"]
                         ),
                     ),
                     rx.cond(
@@ -46,14 +54,28 @@ def info_detail(info: Info) -> rx.Component:
                         icon_button(
                             "github",
                             info.github,
-                            text="Código"
+                            text="Código",
+                            width=["100%", "auto"]
                         )
-                    )
+                    ),
+                    rx.cond(
+                        info.certificate != "",
+                        icon_button(
+                            "shield-check",
+                            info.certificate,
+                            solid=True,
+                            width=["100%", "auto"]
+                        )
+                    ),
+                    spacing=Size.SMALL.value,
+                    width="100%",
+                    flex_wrap="wrap"
                 ),
                 spacing=Size.SMALL.value,
                 width="100%"
             ),
             spacing=Size.DEFAULT.value,
+            align_items="flex-start",
             width="100%"
         ),
         rx.cond(
@@ -61,29 +83,13 @@ def info_detail(info: Info) -> rx.Component:
             rx.image(
                 src=info.image,
                 height=IMAGE_HEIGHT,
-                width=IMAGE_WIDTH,
-                min_width=IMAGE_WIDTH,
+                width="100%",
+                max_width=IMAGE_WIDTH,
                 border_radius=EmSize.DEFAULT.value,
                 object_fit="cover"
             )
         ),
-        rx.vstack(
-            rx.cond(
-                info.date != "",
-                rx.badge(info.date)
-            ),
-            rx.cond(
-                info.certificate != "",
-                icon_button(
-                    "shield-check",
-                    info.certificate,
-                    solid=True
-                )
-            ),
-            spacing=Size.SMALL.value,
-            align="end"
-        ),
-        flex_direction=["column-reverse", "row"],
+        flex_direction=["column", "row"],
         spacing=Size.DEFAULT.value,
         width="100%"
     )

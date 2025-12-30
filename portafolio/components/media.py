@@ -10,26 +10,35 @@ def media(data: Media) -> rx.Component:
             "mail",
             f"mailto:{data.email}",
             data.email,
-            True
+            True,
+            width=["100%", "100%", "auto"]
         ),
-        rx.hstack(
+        rx.flex(
             icon_button(
                 "file-text",
                 data.cv,
-                text="CV"
+                text="CV",
+                width=["100%", "100%", "auto"]
             ),
             icon_button(
                 "github",
                 data.github,
-                text="GitHub"
+                text="GitHub",
+                width=["100%", "100%", "auto"]
             ),
             icon_button(
                 "linkedin",
                 data.likedin,
-                text="LinkedIn"
+                text="LinkedIn",
+                width=["100%", "100%", "auto"]
             ),
-            spacing=Size.SMALL.value
+            spacing=Size.SMALL.value,
+            flex_direction=["column", "column", "row"],
+            width="100%",
+            flex_wrap="wrap"
         ),
         spacing=Size.SMALL.value,
-        flex_direction=["column", "column", "row"]
+        flex_direction=["column", "column", "row"],
+        width="100%",
+        align_items="stretch"
     )
