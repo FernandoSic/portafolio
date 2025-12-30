@@ -58,6 +58,13 @@
     ],
     "experience": [
         {
+            "icon": "desktop",
+            "title": "Encargado de Informática",
+            "subtitle": "Asesoramiento e implementación tecnológica",
+            "description": "Responsable de asesoramiento académico en el uso de tecnologías educativas, implementacion de temarios de informatica y programación, así como la implementacion de nuevas tecnologías en la institución enfocados en mejorar la calidad educativa.",
+            "date": "2023 - 2025"
+        },
+        {
             "icon": "laptop",
             "title": "Profesor de programación",
             "subtitle": "Programadción y offimatica",
@@ -65,14 +72,45 @@
             "date": "2023 - 2024"
         },
         {
-            "icon": "chemistry",
+            "icon": "flask_conical",
             "title": "Prefesor de ciencias",
             "subtitle": "Química y Biología",
             "description": "Enseñar ciencias naturales a estudiantes de nivel medio.",
-            "date": "2019 - Actualidad"
+            "date": "2019 - 2025"
         }
     ],
     "projects": [
+        {
+            "icon": "train_track",
+            "title": "To Do List",
+            "subtitle": "Proyecto personal",
+            "description": "Aplicación web para la gestión de tareas pendientes con autenticación de usuarios y categorización por tipos, ademas de seguridad medante JSON Web Tokens (JWT). Permite crear y eliminar tareas, así como marcar su estado de completitud.",
+            "technologies": [
+                {
+                    "icon": "devicon-mongodb-plain",
+                    "name": "MongoDB"
+                },
+                {
+                    "icon": "devicon-nodejs-plain",
+                    "name": "Node.js"
+                },
+                {
+                    "icon": "devicon-express-original",
+                    "name": "Express"
+                },
+                {
+                    "icon": "devicon-javascript-plain",
+                    "name": "JavaScript"
+                },
+                {
+                    "icon": "devicon-react-plain",
+                    "name": "React"
+                }
+            ],
+            "image": "/ToDoList.png",
+            "github": "https://github.com/FernandoSic/ToDoList-movile.git",
+            "url": "https://to-do-list-eight-kappa-30.vercel.app/"
+        },
         {
             "icon": "bar-chart-2",
             "title": "Gestor de incripción de cursos",
@@ -92,7 +130,7 @@
             "github": "https://github.com/FernandoSic/Gestion_de_inscripciones.git"
         },
         {
-            "icon": "apple-alt",
+            "icon": "activity",
             "title": "Kalo fit",
             "subtitle": "Proyecto de graduación",
             "description": "Aplicación que permite a los usuarios registrar sus comidas diarias indicando qué alimentos consumen y en qué cantidades. El sistema calcula las calorías consumidas y muestra reportes visuales del historial.",
@@ -122,7 +160,7 @@
             "github": "https://github.com/FernandoSic/Kalo_fit.git"
         },
         {
-            "icon": "inventory",
+            "icon": "box",
             "title": "Gestor de inventario",
             "subtitle": "Proyecto de curso (Bases de datos)",
             "description": "El sistema de gestión de inventarios tiene como objetivo permitir el registro y control de productos en un almacén, gestionar transacciones de venta y mantener un registro histórico de las modificaciones realizadas en los productos.",
@@ -150,37 +188,8 @@
             ],
             "image": "/GestorInven.png",
             "github": "https://github.com/FernandoSic/DB_inventario.git"
-        },
-        {
-            "icon": "track",
-            "title": "Habits Tracker",
-            "subtitle": "Proyecto de curso (POO)",
-            "description": "El sistema permite a los usuarios crear, registrar y dar seguimiento a sus hábitos diarios. Ofrece herramientas para monitorear el progreso, mantener la constancia y mejorar la formación de nuevos hábitos de manera sencilla y organizada.",
-            "technologies": [
-                {
-                    "icon": "devicon-mongodb-plain",
-                    "name": "MongoDB"
-                },
-                {
-                    "icon": "devicon-nodejs-plain",
-                    "name": "Node.js"
-                },
-                {
-                    "icon": "devicon-express-original",
-                    "name": "Express"
-                },
-                {
-                    "icon": "devicon-javascript-plain",
-                    "name": "JavaScript"
-                },
-                {
-                    "icon": "devicon-nextjs-plain",
-                    "name": "Next.js"
-                }
-            ],
-            "image": "/todo.png",
-            "github": "https://github.com/FernandoSic/Habits-Tracker.git"
         }
+        
     ],
     "training": [
         {

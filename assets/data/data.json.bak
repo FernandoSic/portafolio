@@ -1,6 +1,6 @@
 {
     "title": "Fernando Sic (FSic) | Portafolio",
-    "description": "Soy Fernando, estudiante de informática y desarrollador apasionado, acrualmente estudiante del técnico en desarrollo de software. Me interesa, el manejo de los datos, la inteligencia artificial y el desarrollo web.",
+    "description": "Soy Fernando, estudiante de informática y desarrollador apasionado, actualmente estudiante del técnico en desarrollo de software. Me interesa, el manejo de los datos, la inteligencia artificial y el desarrollo web.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "Fernando José Nicolás Sic Saquic",
@@ -12,7 +12,7 @@
         "github": "https://github.com/FernandoSic",
         "likedin": "https://www.linkedin.com/in/fernando-sic-saquic-006b47185"
     },
-    "about": "Soy Fernando, estudiante de informática y desarrollador apasionado, acrualmente estudiante del técnico en desarrollo de software. Me interesa, el manejo de los datos, la inteligencia artificial y el desarrollo web.",
+    "about": "Soy Fernando, estudiante de informática y desarrollador apasionado, actualmente estudiante del técnico en desarrollo de software. Me interesa, el manejo de los datos, la inteligencia artificial y el desarrollo web.",
     "technologies": [
         {
             "icon": "devicon-mysql-plain",
